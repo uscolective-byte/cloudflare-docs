@@ -299,7 +299,7 @@
 	"default_example": null,
 	"code_snippets": [],
 	"supports_async": false,
-	"zdr": false,
+	"zdr": true,
 	"zdr_comment": null,
 	"external_info": "https://docs.typesafe.ai/models.md",
 	"terms": "https://docs.typesafe.ai/legal.md",
@@ -308,7 +308,8 @@
 		"Answer types": "Noul, Choice, Score, and Box",
 		"Box questions": "Beta / dreamer-ready; requires image input",
 		"Image inputs": "Beta / dreamer-ready",
-		"Provider model": "jev-1.14.0"
+		"Provider model": "jev-1.14.0",
+		"fedrampAvailable": "true"
 	},
 	"request_formats": null,
 	"providers": null,

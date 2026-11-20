@@ -336,7 +336,7 @@
 	"default_example": null,
 	"code_snippets": [],
 	"supports_async": false,
-	"zdr": false,
+	"zdr": true,
 	"zdr_comment": null,
 	"external_info": "https://developers.openai.com/api/docs/guides/decisions",
 	"terms": "https://openai.com/policies/",
@@ -347,7 +347,8 @@
 		"Model": "GPT-6 Luna",
 		"Question types": "Predicate, choice, score",
 		"Relative latency": "About 10x faster than Responses API",
-		"Status": "Public beta"
+		"Status": "Public beta",
+		"fedrampAvailable": "true"
 	},
 	"request_formats": null,
 	"providers": null,

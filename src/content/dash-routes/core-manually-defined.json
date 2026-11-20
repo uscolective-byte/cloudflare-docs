@@ -1,5 +1,20 @@
 [
 	{
+		"deeplink": "/?to=/:account/:zone/agent-readiness/markdown-for-agents",
+		"name": "Markdown for Agents",
+		"parent": ["Agent Readiness"]
+	},
+	{
+		"deeplink": "/?to=/:account/rules/simulator",
+		"name": "Rules simulator",
+		"parent": ["Rules"]
+	},
+	{
+		"deeplink": "/?to=/:account/configurations/dns-settings",
+		"name": "DNS Settings",
+		"parent": ["Manage account", "Configurations"]
+	},
+	{
 		"deeplink": "/?to=/:account/tunnels",
 		"name": "Tunnels",
 		"parent": ["Networking"]
@@ -35,6 +50,11 @@
 		"parent": ["Compute & AI"]
 	},
 	{
+		"deeplink": "/?to=/:account/workers/browser-run/script-studio",
+		"name": "Browser Run Script Studio",
+		"parent": ["Compute & AI"]
+	},
+	{
 		"deeplink": "/?to=/:account/workers/hyperdrive?modal=1&type=planetscale&step=1",
 		"name": "Create a PlanetScale database",
 		"parent": ["Storage & databases", "Hyperdrive"]
@@ -62,6 +82,11 @@
 	{
 		"deeplink": "/?to=/:account/r2/:bucket/settings",
 		"name": "Bucket settings",
+		"parent": ["Storage & databases", "R2 object storage"]
+	},
+	{
+		"deeplink": "/?to=/:account/r2/:bucket/metrics",
+		"name": "Bucket metrics",
 		"parent": ["Storage & databases", "R2 object storage"]
 	},
 	{
@@ -128,5 +153,10 @@
 		"deeplink": "/?to=/:account/one/cloud-workload-security/tenant-structures",
 		"name": "Tenant structures",
 		"parent": ["Cloud Workload Security", "Policy reference"]
+	},
+	{
+		"deeplink": "/?to=/:account/:zone/analytics/logs/configuration",
+		"name": "Logpush configuration",
+		"parent": ["Observability", "Export", "Logpush"]
 	}
 ]
